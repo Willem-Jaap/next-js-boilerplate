@@ -1,12 +1,6 @@
 //Routes to render for navigation purposes.
 
-export interface Route {
-    label: string;
-    url: string;
-    hidden?: boolean;
-}
-
-const routes: Route[] = [
+const routes = [
     {
         label: 'Home',
         url: '/',
