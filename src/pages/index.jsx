@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import Component from '@components/Component';
 
-const Home= () => {
+const Home = () => {
     return (
         <>
             <Head>
